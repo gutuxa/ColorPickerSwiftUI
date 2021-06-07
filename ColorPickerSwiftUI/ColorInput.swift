@@ -51,6 +51,6 @@ struct ColorInput: View {
 
 struct ColorInput_Previews: PreviewProvider {
     static var previews: some View {
-        ColorInput(value: .constant(24.0))
+        ColorInput(value: .constant(24.0)).padding()
     }
 }

@@ -35,8 +35,7 @@ struct ColorLine: View {
 struct ColorLine_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
-            Color(white: 0.8)
-                .ignoresSafeArea()
+            Color(white: 0.8).ignoresSafeArea()
             ColorLine(value: .constant(23.0), label: "Red", sliderColor: .red)
         }
     }
